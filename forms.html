@@ -18,9 +18,106 @@
         <input type="number"><br><br>
         <label>Enter your Date of Birth</label><br>
         <input type="date"><br><br>
+        <label>Stream</label><br>
+        <select id="stream">
+            <option value="">-- Select a stream --</option>
+            <option value="science">Science</option>
+            <option value="arts">Arts</option>
+            <option value="commerce">Commerce</option>
+        </select><br><br>
+
+        <label>Gender</label><br>
+        <input type="radio" name="gender" value="m"> Male<br>
+        <input type="radio" name="gender" value="f"> Female<br><br>
+        
+        <label>Terms and conditions</label><br>
+        <input type="checkbox" value="accept"> I accept the terms and condition<br>
+        <input type="checkbox" value="message"> Send communication message <br><br>
+
+        
         <input type="button" value="Submit">
         </fieldset>
     </form>
     
 </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My Doctor's Appointment</title>
+  </head>
+  <body>
+
+    <h1>🏥 My Doctor's Appointment</h1>
+    <p>Fill in the form below to book your appointment!</p>
+    <hr>
+
+    <form>
+
+      <fieldset>
+        <legend>Personal Details</legend>
+
+        <label>Your Name</label><br>
+        <input type="text" id="name" placeholder="Enter your full name"><br><br>
+
+        <label>Patient ID</label><br>
+        <input type="password" id="pid" placeholder="Your secret ID"><br><br>
+
+        <label>Date of Birth</label><br>
+        <input type="date" id="dob"><br>
+
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>Your Visit</legend>
+
+        <label>Choose your Doctor</label><br>
+        <select id="doctor">
+          <option value="">-- Select a doctor --</option>
+          <option value="dr-ray">Dr. Ray — General</option>
+          <option value="dr-lee">Dr. Lee — Teeth</option>
+          <option value="dr-sam">Dr. Sam — Eyes</option>
+        </select><br><br>
+
+        
+
+        <label>Any notes for the doctor?</label><br>
+        <textarea id="notes" rows="3" cols="35" placeholder="e.g. I have had a sore throat for 2 days."></textarea><br>
+
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>Preferred Visit Day</legend>
+
+        <input type="checkbox" value="mon"> Monday<br>
+        <input type="checkbox" value="wed"> Wednesday<br>
+        <input type="checkbox" value="fri"> Friday<br>
+
+      </fieldset>
+
+      <br>
+      <input type="submit" value="Book My Appointment">
+
+    </form>
+
+  </body>
 </html>
